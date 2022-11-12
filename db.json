@@ -1,0 +1,150 @@
+{
+    "mates": [
+        {
+            "id": 1,
+            "title": "Mate imperial",
+            "details": "Hechos con calabazas gruesas, Forrados con cuero vacuno, Virolas de alpaca cincelada, Cosidos a mano con hilo encerado",
+            "color": "Castaños oscuros",
+            "price": "€63,90",
+            "img": "https://www.pampadrugstore.net/3392-large_default/mate-imperial-forrado-en-cuero-virola-de-alpaca.jpg",
+            "onSale": false
+        },
+        {
+            "id": 2,
+            "title": "Mate de Calabaza",
+            "details": "Mates de calabaza 100% artesanales, Hechos con calabazas gruesas, Forrados con cuero vacuno, Virolas de alpaca cincelada, Cosidos a mano con hilo encerado",
+            "color": "Castaños oscuros",
+            "price": "€27,90",
+            "img": "https://www.tcompanyshop.com/thumb.php?i=archivos/productos/productos_calabazas-y-bombilla-infusion-de-mate_1502198385.jpg&w=600&h=600&crop",
+            "onSale": false
+        },
+        {
+            "id": 3,
+            "title": "Mates de Vidrio",
+            "details": "Mates de vidrio 100% artesanales, Forrados con cuero vacuno, Cosidos a mano",
+            "color": "Diferentes diseños y estampados",
+            "price": "€15,90",
+            "img": "https://m.media-amazon.com/images/I/81hc3uJblyL._AC_SS450_.jpg",
+            "onSale": false
+        },
+        {
+            "id": 4,
+            "title": "Mate de Cerámica",
+            "details": "Forrados con cuero vacuno, Virolas de acero inoxidable, Cosidos a mano",
+            "color": "Blanco, Rosa, Turquesa y Negro",
+            "price": "€25,90",
+            "img": "https://m.media-amazon.com/images/I/81hc3uJblyL._AC_SS450_.jpg",
+            "onSale": false
+        },
+        {
+            "id": 5,
+            "title": "Mate de Calabaza Natural",
+            "details": "Fruta natural de calabash, 7 Onzas de líquido, Bombilla incluida",
+            "color": "Marron Oscuro",
+            "price": "€20,99",
+            "img": "https://m.media-amazon.com/images/I/71gW8U3TZ9L._AC_SX425_.jpg",
+            "onSale": false
+        },
+        {
+            "id": 6,
+            "title": "Mate de Doble de Acero Inoxidable",
+            "details": "Incluye Dos Bombilla Mate y un Cepillo para Limpiar la Bombilla",
+            "color": "Blanco Marmol",
+            "price": "€23,99",
+            "img": "https://m.media-amazon.com/images/I/715FAN0nIVS.jpg",
+            "onSale": false
+        },
+        {
+            "id": 7,
+            "title": "Mate de acero inoxidable",
+            "details": "Incluye dos Bombilla, doble pared resistente al calor",
+            "color": "Negro",
+            "price": "€23,99",
+            "img": "https://m.media-amazon.com/images/I/71RJQ6qW68L._AC_SX425_.jpg",
+            "onSale": false
+        },
+        {
+            "id": 8,
+            "title": "Mate de Silicona",
+            "details": "Incluye bombilla de acero inoxidable, 200ml yNo necesita curar, Liviano y Facil de Limpiar",
+            "color": "Blanco Marmol",
+            "price": "€10,99",
+            "img": "https://m.media-amazon.com/images/I/41acHfXfenL._AC_SX425_.jpg",
+            "onSale": false
+        }
+    ],
+    "desserts": [
+        {
+            "id": 1,
+            "title": "Bizcochos Don Satur",
+            "details": "Tradicionales galletas de Vainilla con Dulce de Membrilo Telepín x 200gr.",
+            "brand": "Telepín",
+            "price": "€2,94",
+            "img": "https://tiendaargentina.es/wp-content/uploads/2022/08/Pepas-con-membrillo-Terepin.jpg",
+            "onSale": false
+        },
+        {
+            "id": 2,
+            "title": "Chocolinas",
+            "details": "Galletitas Chocolinas Bagley Argentinas, ideales para disfrutar a la hora del té y también para realizar la riquísima receta de chocotorta.",
+            "brand": "Chocolinas",
+            "price": "€2,42",
+            "img": "https://www.rincongaucho.net/wp-content/uploads/2021/02/chocolinas-250gr-galletitas-argentinas-rincon-gaucho-yerba-mate-verdeflor-carne-argentina-productos-argentinos-tapas-de-empanadas-5.jpg",
+            "onSale": false
+        },
+        {
+            "id": 3,
+            "title": "Galletas Merengadas",
+            "details": "Galleta dulce rellena de sabor fresa con vainilla",
+            "brand": "Merengadas",
+            "price": "€1,90",
+            "img": "https://www.deliargentina.com/image/cache/catalog/product/alimentacion/galletas-merengadas-argentinas/galletas-merengadas-argentinas-500x500.jpg",
+            "onSale": false
+        },
+        {
+            "id": 4,
+            "title": "Torta Fritas",
+            "details": "Plato típico de la cocina criolla argentina. Ingredientes harina, agua y aceite",
+            "brand": "Caseras",
+            "price": "€20",
+            "img": "https://resizer.glanacion.com/resizer/5MXvlhyPkr-6T-D8U5D7bbu3_NY=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/3GIA4QXYKNCN5KSKOPJLP3VQOA.jpg",
+            "onSale": false
+        },
+        {
+            "id": 5,
+            "title": "Pastafrola",
+            "details": "Ingredientes manteca, azucar, huevos, relladura de limon, sal, harina leudante",
+            "brand": "Casera",
+            "price": "€10,48",
+            "img": "https://scm-assets.constant.co/scm/unilever/2bb5223be0548fcc55c230aa5f951219/af3e7008-73c9-41fa-97c4-5afb61a6d8a5.jpg",
+            "onSale": false
+        },
+        {
+            "id": 6,
+            "title": "Alfajor de Maicena",
+            "details": "Ingredientes manteca, harina, maicena, huevos, polvo de hornear, esencia de vainilla, Dulce de leche, Coco Rallado",
+            "brand": "Caseros",
+            "price": "€50,75",
+            "img": "https://i.ytimg.com/vi/s8tm2U4dOdY/maxresdefault.jpg",
+            "onSale": false
+        },
+        {
+            "id": 7,
+            "title": "Sanguchitos de miga",
+            "details": "Ingredientes planchas de pan de miga blanco y los ingredientes deseados",
+            "brand": "Caseros",
+            "price": "€100,43",
+            "img": "https://placeralplato.com/files/2015/05/Receta-de-sndwiches-de-miga.jpg",
+            "onSale": false
+        },
+        {
+            "id": 8,
+            "title": "Facturas",
+            "details": "Variedad de Facturas Argentinas, tortitas negras, medialunas, vigilantes y más!",
+            "brand": "Caseros",
+            "price": "€40,20",
+            "img": "https://www.barilochense.com/suplementos/cafeteria-don-federico/fotos/51966.jpg",
+            "onSale": false
+        }
+    ]
+}
