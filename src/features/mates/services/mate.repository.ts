@@ -4,9 +4,8 @@ import { Repository } from "./repository";
 export class MateRepository implements Repository<Mate> {
     url: string;
     constructor(url = "") {
-        this.url = url
-            ? url
-            : "https://202211w6ch1saramireyapatricia-production.up.railway.app/mates";
+        this.url =
+            "https://202211w6ch1saramireyapatricia-production.up.railway.app/mates";
     }
 
     createError(response: Response) {
@@ -17,10 +16,14 @@ export class MateRepository implements Repository<Mate> {
     }
 
     getAll(): Promise<Array<Mate>> {
-        return fetch(this.url).then((response) => {
-            if (response.ok) return response.json();
-            throw this.createError(response);
-        });
+        return fetch(this.url)
+            .then((response) => {
+                if (response.ok) return response.json();
+                throw this.createError(response);
+            })
+            .catch((error) => {
+                return `${error}`;
+            });
     }
 
     create(mate: Partial<Mate>): Promise<Mate> {
@@ -30,10 +33,14 @@ export class MateRepository implements Repository<Mate> {
             headers: {
                 "Content-type": "application/json",
             },
-        }).then((response) => {
-            if (response.ok) return response.json();
-            throw this.createError(response);
-        });
+        })
+            .then((response) => {
+                if (response.ok) return response.json();
+                throw this.createError(response);
+            })
+            .catch((error) => {
+                return `${error}`;
+            });
     }
 
     update(partialMate: Partial<Mate>): Promise<Mate> {
@@ -41,17 +48,25 @@ export class MateRepository implements Repository<Mate> {
             method: "PATCH",
             body: JSON.stringify(partialMate),
             headers: { "Content-type": "application/json" },
-        }).then((response) => {
-            if (response.ok) return response.json();
-            throw this.createError(response);
-        });
+        })
+            .then((response) => {
+                if (response.ok) return response.json();
+                throw this.createError(response);
+            })
+            .catch((error) => {
+                return `${error}`;
+            });
     }
 
     delete(id: number): Promise<void> {
         return fetch(`${this.url}/${id}`, {
             method: "DELETE",
-        }).then((response) => {
-            if (!response.ok) throw this.createError(response);
-        });
+        })
+            .then((response) => {
+                if (!response.ok) throw this.createError(response);
+            })
+            .catch((error) => {
+                return `${error}` as unknown as void;
+            });
     }
 }
