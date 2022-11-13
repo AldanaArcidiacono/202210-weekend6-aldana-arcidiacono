@@ -46,5 +46,5 @@ export const useMate = () => {
     };
 };
 
-// No me ha quedado del todo claro si es necesario el catch en el hook teniendo este control en el repository.
+// No me ha quedado claro si es necesario el catch en el hook teniendo este control en el repository.
 // Además, no he conseguido que el test pase por estas lineas, por lo que he decidido comentarlos.
