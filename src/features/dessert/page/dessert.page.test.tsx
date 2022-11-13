@@ -1,8 +1,8 @@
 import { render, screen } from "@testing-library/react";
 import { Provider } from "react-redux";
-import { appStore } from "../../../app/redux-toolkit/store";
 import { MemoryRouter as Router } from "react-router-dom";
-import { DessertPage } from "./dessert.page";
+import { appStore } from "../../../infrastructure/app/redux-toolkit/store";
+import DessertPage from "./dessert.page";
 
 describe("Given DessertPage component", () => {
     describe("When we render the component", () => {

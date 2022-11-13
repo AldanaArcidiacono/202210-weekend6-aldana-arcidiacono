@@ -1,6 +1,6 @@
 import { renderHook, waitFor } from "@testing-library/react";
 import { Provider } from "react-redux";
-import { appStore } from "../../../app/redux-toolkit/store";
+import { appStore } from "../../../infrastructure/app/redux-toolkit/store";
 import { DessertRepository } from "../services/dessert.repository";
 import { Dessert, ProtoDessert } from "../types/dessert";
 import { useDessert } from "./usedessert";

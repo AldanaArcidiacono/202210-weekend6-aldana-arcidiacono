@@ -1,6 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { dessertReducer } from "../../features/dessert/reducer/reducer";
-import { mateReducer } from "../../features/mates/reducer/reducer";
+import { dessertReducer } from "../../../features/dessert/reducer/reducer";
+import { mateReducer } from "../../../features/mates/reducer/reducer";
 
 export const appStore = configureStore({
     reducer: {

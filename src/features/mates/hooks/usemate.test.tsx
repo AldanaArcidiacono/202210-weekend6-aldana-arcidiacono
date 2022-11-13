@@ -1,7 +1,6 @@
 import { renderHook, waitFor } from "@testing-library/react";
-import { act } from "react-dom/test-utils";
 import { Provider } from "react-redux";
-import { appStore } from "../../../app/redux-toolkit/store";
+import { appStore } from "../../../infrastructure/app/redux-toolkit/store";
 import { MateRepository } from "../services/mate.repository";
 import { Mate, ProtoMate } from "../types/mate";
 import { useMate } from "./usemate";

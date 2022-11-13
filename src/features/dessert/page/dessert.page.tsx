@@ -1,7 +1,9 @@
-export function DessertPage() {
+function DessertPage() {
     return (
         <main>
             <h2>Sección de Postres</h2>
         </main>
     );
 }
+
+export default DessertPage;

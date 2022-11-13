@@ -25,7 +25,7 @@
             "color": "Diferentes diseños y estampados",
             "price": "€15,90",
             "img": "https://m.media-amazon.com/images/I/81hc3uJblyL._AC_SS450_.jpg",
-            "onSale": false
+            "onSale": true
         },
         {
             "id": 4,
@@ -43,7 +43,7 @@
             "color": "Marron Oscuro",
             "price": "€20,99",
             "img": "https://m.media-amazon.com/images/I/71gW8U3TZ9L._AC_SX425_.jpg",
-            "onSale": false
+            "onSale": true
         },
         {
             "id": 6,
@@ -70,7 +70,7 @@
             "color": "Blanco Marmol",
             "price": "€10,99",
             "img": "https://m.media-amazon.com/images/I/41acHfXfenL._AC_SX425_.jpg",
-            "onSale": false
+            "onSale": true
         }
     ],
     "desserts": [
@@ -81,7 +81,7 @@
             "brand": "Telepín",
             "price": "€2,94",
             "img": "https://tiendaargentina.es/wp-content/uploads/2022/08/Pepas-con-membrillo-Terepin.jpg",
-            "onSale": false
+            "onSale": true
         },
         {
             "id": 2,
@@ -90,7 +90,7 @@
             "brand": "Chocolinas",
             "price": "€2,42",
             "img": "https://www.rincongaucho.net/wp-content/uploads/2021/02/chocolinas-250gr-galletitas-argentinas-rincon-gaucho-yerba-mate-verdeflor-carne-argentina-productos-argentinos-tapas-de-empanadas-5.jpg",
-            "onSale": false
+            "onSale": true
         },
         {
             "id": 3,
@@ -126,7 +126,7 @@
             "brand": "Caseros",
             "price": "€50,75",
             "img": "https://i.ytimg.com/vi/s8tm2U4dOdY/maxresdefault.jpg",
-            "onSale": false
+            "onSale": true
         },
         {
             "id": 7,
