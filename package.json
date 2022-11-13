@@ -24,7 +24,7 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "test:all": "react-scripts test --watchAll --collect-coverage",
-        "test:prod": "jest --coverage",
+        "test:prod": "react-scripts test --watchAll --collect-coverage --watchAll=false",
         "start:build": "run-p build start"
     },
     "eslintConfig": {
