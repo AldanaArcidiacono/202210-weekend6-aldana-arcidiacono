@@ -3,17 +3,20 @@ import { createRoot } from "react-dom/client";
 import { Provider } from "react-redux";
 import reportWebVitals from "./reportWebVitals";
 import "./index.css";
-import { appStore } from "./app/redux-toolkit/store";
-import App from "./app/App";
+import { MemoryRouter as Router } from "react-router-dom";
+import App from "./infrastructure/app/App";
+import { appStore } from "./infrastructure/app/redux-toolkit/store";
 
 const container = document.getElementById("root")!;
 const root = createRoot(container);
 
 root.render(
     <React.StrictMode>
-        <Provider store={appStore}>
-            <App />
-        </Provider>
+        <Router>
+            <Provider store={appStore}>
+                <App />
+            </Provider>
+        </Router>
     </React.StrictMode>
 );
 
