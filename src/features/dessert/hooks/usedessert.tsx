@@ -1,6 +1,6 @@
 import { useEffect, useMemo } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { rootState } from "../../../app/redux-toolkit/store";
+import { rootState } from "../../../infrastructure/app/redux-toolkit/store";
 import * as ac from "../reducer/action.creator";
 import { DessertRepository } from "../services/dessert.repository";
 import { Dessert, ProtoDessert } from "../types/dessert";
