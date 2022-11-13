@@ -1,6 +1,6 @@
-import { Mate } from "../../types/mate";
+import { Dessert } from "../../types/dessert";
 
-export function MateItem({ item }: { item: Mate }) {
+export function DessertItem({ item }: { item: Dessert }) {
     return (
         <>
             <p>{item.title}</p>

@@ -1,13 +1,18 @@
 import { render, screen } from "@testing-library/react";
 import { MemoryRouter as Router } from "react-router-dom";
 import HomePage from "./home.page";
+import "@testing-library/jest-dom";
+import { appStore } from "../../../infrastructure/app/redux-toolkit/store";
+import { Provider } from "react-redux";
 
 describe("Given Home component", () => {
     describe("When we render the component", () => {
         beforeEach(() => {
             render(
                 <Router>
-                    <HomePage />
+                    <Provider store={appStore}>
+                        <HomePage />
+                    </Provider>
                 </Router>
             );
         });
