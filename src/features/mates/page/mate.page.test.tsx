@@ -1,8 +1,8 @@
 import { render, screen } from "@testing-library/react";
 import { Provider } from "react-redux";
-import { appStore } from "../../../app/redux-toolkit/store";
 import { MemoryRouter as Router } from "react-router-dom";
-import { MatePage } from "./mate.page";
+import { appStore } from "../../../infrastructure/app/redux-toolkit/store";
+import MatePage from "./mate.page";
 
 describe("Given MatePage component", () => {
     describe("When we render the component", () => {
@@ -16,7 +16,7 @@ describe("Given MatePage component", () => {
             );
         });
         test("Then it should display the title", () => {
-            const element = screen.getByText(/Mate/i);
+            const element = screen.getByText(/Sección/i);
             expect(element).toBeInTheDocument();
         });
     });
